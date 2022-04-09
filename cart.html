@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+
+
+    <!-- icon -->
+    <link rel="icon" href="public/images/logo.png" type="image/png">
+    <!-- bootstrap CDN LINK -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="public/css/index.css">
+   
+    <link rel="stylesheet" href="public/css/cart.css"> <!-- owl carousel setting -->
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <!-- making navigation header -->
+    <section class="headerSection">
+        <div>
+            <div class="searchInput" id="searchInput">
+                <input type="text" placeholder="Search Item" name="search">
+                <button>
+                    <a href="#">
+                        Search
+                    </a>
+                </button>
+            </div>
+            <div id="header">
+                <!-- main logo columc -->
+                <div class="responsive">
+                    <i class="fa-solid fa-bars" style="color: black;" id="responsiveBtn"></i>
+
+                </div>
+
+                <div id="logo">
+                    <img width="130" src="public/images/logo.png" class="desktopLogo">
+                </div>
+                <!-- main NAVIGATION columc -->
+                <div class="responsiveLogo">
+                    <img width="130" src="public/images/logo.png">
+                </div>
+                <div class="navigation">
+                    <ul id="menu">
+
+                        <button id="closeBtn">&#xd7;</button>
+
+
+                        <li><a href="index.html">home</a></li>
+                        <li class="mainCategory"><a href="#">Women</a>
+                            <span class="plusMinus" id="ExpandList_1">&#x2b;</span>
+                            <span class="minus" id="collapse_1" style="display: none;">&#x2212;</span>
+                            <div class="categoryDropDown" id="categoryDropDown_1">
+                                <h3 style="margin: 0px;">Women</h3>
+                                <hr style="margin-top: 0px;">
+                                <div>
+                                    <ul class="Child_Categories">
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#">Clothes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Accessories</a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                                <hr>
+                                <div>
+                                    <img src="public/images/backgroundMain2.jpg">
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+                <!-- main cart Container columc -->
+                <div style="line-height: 80px; margin-left: auto;">
+
+                    <ul class="cartIcons text-right">
+                        <li class="searchOption" id="searchOption"><i class="fas fa-search"></i></li>
+
+                        <li class="heartOptions"><i class="fas fa-heart"><span class="cartCounter">10</span></i></li>
+                        <li class="cartOption"><i class="fas fa-shopping-cart"><span class="cartCounter"> 4</span></i>
+
+                            <!-- Down Down -->
+                            <div class="cartOption_DropDown" id="cartOption_DropDown">
+
+                                <div class="cart_DropDown_item_List">
+
+                                    <div class="cart_Drop_Down_Items">
+
+                                        <div>
+                                            <img src="public/images/2.jpg" width="80">
+                                        </div>
+                                        <div>
+                                            <ul class="cartItem_List">
+                                                <li><span>1</span> x <span style="font-weight:bold;">Babe Tissue Papper
+                                                        M/Blue</span></li>
+                                                <li><span>Price:</span> PKR 400.00</li>
+                                                <li><span>Color:</span><span> Blue</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="cart_Drop_Down_Items">
+
+                                        <div>
+                                            <img src="public/images/1.jpg" width="80">
+                                        </div>
+                                        <div>
+                                            <ul class="cartItem_List">
+                                                <li><span>1</span> x <span style="font-weight:bold;">Babe Tissue Papper
+                                                        M/Blue</span></li>
+                                                <li><span>Price:</span> PKR 400.00</li>
+                                                <li><span>Color:</span><span> Blue</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="cart_Drop_Down_Items">
+
+                                        <div>
+                                            <img src="public/images/2.jpg" width="80">
+                                        </div>
+                                        <div>
+                                            <ul class="cartItem_List">
+                                                <li><span>1</span> x <span style="font-weight:bold;">Babe Tissue Papper
+                                                        M/Blue</span></li>
+                                                <li><span>Price:</span> PKR 400.00</li>
+                                                <li><span>Color:</span><span> Blue</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="cart_Drop_Down_Items">
+
+                                        <div>
+                                            <img src="public/images/1.jpg" width="80">
+                                        </div>
+                                        <div>
+                                            <ul class="cartItem_List">
+                                                <li><span>1</span> x <span style="font-weight:bold;">Babe Tissue Papper
+                                                        M/Blue</span></li>
+                                                <li><span>Price:</span> PKR 400.00</li>
+                                                <li><span>Color:</span><span> Blue</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- total Pricing Box in  -->
+                                <div class="PriceBox">
+
+                                    <div>
+                                        <ul style="text-align: left;">
+                                            <li>SubTotal</li>
+                                            <li>Tax</li>
+                                            <li>Total</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul>
+                                            <li>PKR 800.00</li>
+                                            <li>PKR 100.00 </li>
+                                            <li>PKR 900.00 </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="cartBtnInDropDown">
+                                    <button>
+                                        <a href="cart.html">Cart</a>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- hero Body -->
+    <!-- <section class="heroSection2" style="background-image: url('public/images/listingpageMainPic.2jpg.jpg'); background-size: 100%;">
+
+
+        <div class="heroContent">
+            <h2 style="text-align: center;">CART</h2>
+            <span style="text-transform: uppercase;">Home - cart</span>
+        </div>
+
+    </section> -->
+
+
+
+    <!-- cart Detials -->
+    <section class="cartBox">
+        <h4>Shopping Cart</h4>
+        
+        <div class="cart">
+
+            <div class="cartItemsBox">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col cartitem" scope="col" style="text-align: left;">
+                                Item
+                            </th>
+                            <th class="col price" scope="col">
+                                Price
+                            </th>
+                            <th class="col qty" scope="col">
+                                Qty
+                            </th>
+                            <th class="col" scope="col">
+                                Subtotal
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr class="tableRow">
+
+                            <td class="col cartItem cartitemName">
+
+                                <div class="cartItemImg">
+                                    <img src="public/images/50.jpg" alt="black kurta">
+                                </div>
+                                <div>
+                                    <h4>Black Kurta</h4>
+                                    <p><span style="font-weight: bold;">Color: </span> Blue</p>
+                                    <p><span style="font-weight: bold;">Size: </span> L</p>
+                                </div>
+                               
+                            </td>
+
+                            <td class="col cartItem">
+                                <span style="font-weight: bold;" class="responsivetH">Price</span>
+                                <span>2399.00 </span>
+                            </td>
+                            <td class="col cartItem">
+                                <span style="font-weight: bold;" class="responsivetH">QTY</span>
+                                <div class="qty">
+                                    <button class="dicreaseQty">-</button>
+                                    <button class="QtyValue" id="quantityValue_1">1</button>
+                                    <button class="increaseQty">+</button>
+                                </div>
+
+                            </td>
+                            <td>
+                                <span style="font-weight: bold;" class="responsivetH">SubTotal</span>
+                                <span class="subTotalPriceOfItem">400.00</span>
+                            </td>
+                        </tr>
+
+                        <tr class="tableRow">
+
+                            <td class="col cartItem cartitemName">
+
+                                <div class="cartItemImg">
+                                    <img src="public/images/51.jpg" alt="black kurta">
+                                </div>
+                                <div>
+                                    <h4>Black Kurta</h4>
+                                    <p><span style="font-weight: bold;">Color: </span> Blue</p>
+                                    <p><span style="font-weight: bold;">Size: </span> L</p>
+                                </div>
+                               
+                            </td>
+
+                            <td class="col cartItem">
+                                <span style="font-weight: bold;" class="responsivetH">Price</span>
+                                <span>2399.00</span>
+                            </td>
+                            <td class="col cartItem">
+                                <span style="font-weight: bold;" class="responsivetH">QTY</span>
+                                <div class="qty">
+                                    <button class="dicreaseQty" >-</button>
+                                    <button class="QtyValue" id="quantityValue_2">1</button>
+                                    <button class="increaseQty">+</button>
+                                </div>
+
+                            </td>
+                            <td>
+                                <span style="font-weight: bold;" class="responsivetH">SubTotal</span>
+                                <span class="subTotalPriceOfItem">99.00</span>
+                            </td>
+                        </tr>
+
+                        <tr class="tableRow">
+
+                            <td class="col cartItem cartitemName">
+
+                                <div class="cartItemImg">
+                                    <img src="public/images/52.jpg" alt="black kurta">
+                                </div>
+                                <div>
+                                    <h4>Black Kurta</h4>
+                                    <p><span style="font-weight: bold;">Color: </span> Blue</p>
+                                    <p><span style="font-weight: bold;">Size: </span> L</p>
+                                </div>
+                               
+                            </td>
+
+                            <td class="col cartItem">
+                                <span style="font-weight: bold;" class="responsivetH">Price</span>
+                                <span>299.00</span>
+                            </td>
+                            <td class="col cartItem">
+                                <span style="font-weight: bold;" class="responsivetH">QTY</span>
+                                <div class="qty">
+                                    <button class="dicreaseQty">-</button>
+                                    <button class="QtyValue" id="quantityValue_3">1</button>
+                                    <button class="increaseQty">+</button>
+                                </div>
+
+                            </td>
+                            <td>
+                                <span style="font-weight: bold;" class="responsivetH">SubTotal</span>
+                                <span class="subTotalPriceOfItem">399.00</span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div class="updateCartBtn">
+                    <button>
+                        update cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="cartSummary">
+                <h3>Summary</h3>
+                <hr>
+                <div class="summaryContent">
+                    <span>SubTotal</span>
+                    <span>PKR 2,134</span>
+                </div>
+                <div class="summaryContent">
+                    <span>Shipping</span>
+                    <span>PKR 200</span>
+                </div>
+                <hr>
+                <div class="summaryContent">
+                    <h3>Total</h3>
+                    <span>2,334</span>
+                </div>
+                <hr>
+                <div>
+                    <a href="checkout.html" class="checkoutBtn">
+                        <button>
+                            checkout
+                        </button>
+                    </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    
+
+
+    
+
+
+
+    <!-- footer -->
+    <footer>
+        <!-- footer 1 Box -->
+        <div class="footer1FlexBox">
+            <div class="footer1">
+                <div>
+                    <i class="fas fa-shipping-fast"></i>
+                </div>
+                <div>
+                    <p>Flat Rate Shipping</p>
+                    <span>PKR 100 on all delivery</span>
+                </div>
+            </div>
+            <div class="footer1">
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <p>Track Your Order</p>
+                    <span>Track your order for quick updates</span>
+                </div>
+            </div>
+            <div class="footer1">
+                <div>
+                    <i class="far fa-clock"></i>
+                </div>
+                <div>
+                    <p>Fast Delivery</p>
+                    <span>Delivery In just 24 Hours</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- email box -->
+        <hr style="background-color: #828282;">
+        <!-- footer 2 Box -->
+        <div class="footer_2">
+
+            <div class="footer_2Item">
+                <h4 style="margin-top: 0px;">First To Know</h4>
+                <p>Sign up for our newsletter to receive updates on special offers, news and events</p>
+            </div>
+            <div class="footer_2Item emailBox">
+                <input type="email" autocomplete="email" placeholder="Email" name="email">
+
+                <button>
+                    <a href="#">
+                        Subscribe
+                    </a>
+                </button>
+            </div>
+            <div class="footer_2Item iconeBox">
+                <a href="#" class="icone1">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="icone2">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- footer content -->
+        <!-- footer_3 -->
+        <div class="footer_3">
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 footer_3_Box1">
+                    <h4>GET ON TOUCH</h4>
+                    <h5>ADDRESS</h5>
+                    <p>22nd Floor, Sky Tower B- East Wing,
+                        Dolmen City, Block 4, Marine Drive Clifton,
+                        Karachi, Pakistan</p>
+                    <h5>PHONE</h5>
+                    <p>+92342 3597787</p>
+                    <h5>EMAIL</h5>
+                    <p>pardesi20180@gmail.com</p>
+                </div>
+
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer_linksBox">
+
+                            <ul class="footer_links">
+                                <li>
+                                    <h4>OUR COMPNAY</h4>
+                                </li>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gallary</a>
+                                </li>
+                            </ul>
+
+
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer_linksBox">
+
+                            <ul class="footer_links">
+                                <li>
+                                    <h4>CUSTOMER SUPPORT</h4>
+                                </li>
+                                <li>
+                                    <a href="#">Customers Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Give Feedback</a>
+                                </li>
+                                <li>
+                                    <a href="#">Store Locator</a>
+                                </li>
+                                <li>
+                                    <a href="#">Disclaimer</a>
+                                </li>
+                            </ul>
+
+
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer_linksBox">
+
+                            <ul class="footer_links">
+                                <li>
+                                    <h4 style="color: #828282;">____________</h4>
+                                </li>
+                                <li>
+                                    <a href="#">Shipping & Handling</a>
+                                </li>
+                                <li>
+                                    <a href="#">Return Exchange</a>
+                                </li>
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                            </ul>
+
+
+
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 footer_linksBox">
+
+                            <ul class="footer_links">
+                                <li>
+                                    <h4>HELP</h4>
+                                </li>
+                                <li>
+                                    <a href="#">Track Order</a>
+                                </li>
+                                <li>
+                                    <a href="#">Term and Condition</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <hr style="background-color: #828282; margin: 10px 0px">
+                    <span style="color: #828282;">Copyright © 2021 Beauty Pakistan (SMC-Pvt) Limited. All Rights
+                        Reserved</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </footer>
+
+
+
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <!-- Slick slider JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- custom javascript -->
+    <script src="public/javascript/index.js"></script>
+    <script src="public/javascript/detialsPage.js"></script>
+    <script src="public/javascript/cart.js"></script>
+
+
+
+
+</body>
+  
+
+</html>
